@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mylayouts.jm.cityofgosnellsdiybusinesssecurity.About_Activity"
+    android:onClick="showMenu">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/orange_arrow_bar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="ABOUT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:onClick="showMenu" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_bar"
+        android:id="@+id/topBar"
+        android:layout_below="@+id/imageButton" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/topBar"
+        android:layout_above="@+id/borrowBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This DIY Business Security App is a joint initiative between the City of Gosnells, WA Police and Central Institute of Technology.  The App provides practical advice on securing your business and protecting your staff and property."
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For more information about this App or any other Safe City Programs, please contact"
+                android:padding="5dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Safe City Initiative\n9391 6022\nsafecity@gosnells.wa.gov.au\nwww.gosnells.wa.gov.au"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Created by students of the Diploma of Software Development at Central Institute of Technology"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Contributors\n
+Nichola Kerr - Lecturer (Project Manager)\n
+Gustavo T.Dias - Senior Developer\n
+James McNeil - Senior Developer\n
+Thomas Kramer - Developer"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/borrowBar" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mylayouts.jm.cityofgosnellsdiybusinesssecurity" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:name=".GlobalChecklist"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MayorLetter"
+            android:label="@string/title_activity_mayor_letter"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PreferenceActivity"
+            android:label="@string/title_activity_preference"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Help_Activity"
+            android:label="@string/title_activity_help_"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".About_Activity"
+            android:label="@string/title_activity_about_"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <receiver android:name=".NotificationReceiver" />
+
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LinksActivity"
+            android:label="@string/title_activity_my_links"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AddLinkActivity"
+            android:label="@string/title_activity_add_link"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".EditLinkActivity"
+            android:label="@string/title_activity_edit_link"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChecklistFragmentActivity"
+            android:label="@string/title_activity_checklist_fragment"
+            android:theme="@style/checklistTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MyNumbersActivity"
+            android:label="@string/title_activity_my_numbers"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AddNumberActivity"
+            android:label="@string/title_activity_add_number"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".EditNumberActivity"
+            android:label="@string/title_activity_edit_number"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BombThreatActivity"
+            android:label="@string/title_activity_bomb_threat"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

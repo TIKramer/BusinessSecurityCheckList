@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChecklistFragment"
+    android:theme="@style/checklistTheme"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/fraglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/activity_display_checklist"
+        android:divider="@drawable/dotted_line" />
+
+
+</LinearLayout>
