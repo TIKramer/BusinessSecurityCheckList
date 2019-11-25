@@ -9,7 +9,7 @@ The development process I decided to use was agile scrum methodology.
 <img src="https://github.com/TIKramer/BusinessSecurityCheckList/blob/master/Screenshots/mayorLetter.png" width="200" height="400" />
 </p>
 Our client was the City of Gosnells,the proposed application was to be designed to encourage businesses to complete the security checklist and improve the security of the business if needed.
-The goal being improving checklist participants by increasing ease of use and accessibility, thereby improving business security to reduce crime and minimise the effects of any potential crime of the business.
+The goal of improving checklist participants by increasing ease of use and accessibility, thereby improving business security to reduce crime and minimise the effects of any potential crime.
 
 </br>
 
