@@ -12,13 +12,14 @@ Our client was the City of Gosnells,the proposed application was to be designed 
 The goal of improving checklist participants by increasing ease of use and accessibility, thereby improving business security to reduce crime and minimise the effects of any potential crime.
 
 </br>
+</br>
 
 <img src="https://github.com/TIKramer/BusinessSecurityCheckList/blob/master/Screenshots/checklist.png" width="200" height="400" />
 
 </br>
 The application questions were fed from a URL in the form of a JSON file provided by the City of Gosnells, this JSON file was loaded through a connection to their website within the application. Doing this allowed the questions to be updated by the City of Gosnells without the need to update the application.
 Feedback to the user is provided after the completion of the checklist. The feedback is generated based on the user's answers to the questions in the checklist. Feedback is accompanied by a graphic and a rating of the business security.
-
+</br>
 </br>
 <img src="https://github.com/TIKramer/BusinessSecurityCheckList/blob/master/Screenshots/feedback.png" width="200" height="400" />
 
