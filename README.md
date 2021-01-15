@@ -27,6 +27,7 @@ Feedback to the user is provided after the completion of the checklist. The feed
 </br>
 Notifications are pushed to the user to keep their security up to date. The Notifications will remind the user to re-do the checklist at set interval of time or when the checklist has been updated. The time can be chosen by the user in the preferences activity where they can also adjust the notifications.
 </br>
+</br>
 <p float="left">
  <img src="https://github.com/TIKramer/BusinessSecurityCheckList/blob/master/Screenshots/menu.png" width="200" height="400" />
 
